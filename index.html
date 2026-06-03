@@ -1,0 +1,558 @@
+<!doctype html>
+<html class="dark" lang="en"><head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <title>BERBIOKER | Advanced Botanical Hair Science</title>
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,wght@0,400..900;1,400..900&amp;family=Manrope:wght@200..800&amp;display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            "colors": {
+              "secondary-fixed": "#d2e7dc",
+              "surface-tint": "#e9c349",
+              "inverse-surface": "#e5e2e1",
+              "surface-dim": "#131313",
+              "tertiary-fixed": "#e2e2e2",
+              "outline": "#99907c",
+              "on-background": "#e5e2e1",
+              "on-surface": "#e5e2e1",
+              "on-secondary-container": "#a5baaf",
+              "primary-fixed": "#ffe088",
+              "tertiary-fixed-dim": "#c6c6c7",
+              "error-container": "#93000a",
+              "on-secondary-fixed": "#0d1f18",
+              "error": "#ffb4ab",
+              "tertiary": "#cecece",
+              "surface-container": "#201f1f",
+              "surface": "#131313",
+              "surface-container-highest": "#353534",
+              "on-tertiary-fixed": "#1a1c1c",
+              "on-tertiary-container": "#434546",
+              "surface-bright": "#3a3939",
+              "surface-container-low": "#1c1b1b",
+              "outline-variant": "#4d4635",
+              "on-primary-fixed-variant": "#574500",
+              "surface-container-high": "#2a2a2a",
+              "on-secondary-fixed-variant": "#384b42",
+              "surface-container-lowest": "#0e0e0e",
+              "background": "#131313",
+              "secondary": "#b7cbc0",
+              "inverse-primary": "#735c00",
+              "surface-variant": "#353534",
+              "primary": "#f2ca50",
+              "tertiary-container": "#b2b3b3",
+              "secondary-fixed-dim": "#b7cbc0",
+              "secondary-container": "#384b42",
+              "on-primary-fixed": "#241a00",
+              "on-error": "#690005",
+              "on-primary-container": "#554300",
+              "on-secondary": "#22342c",
+              "on-surface-variant": "#d0c5af",
+              "primary-fixed-dim": "#e9c349",
+              "on-primary": "#3c2f00",
+              "on-error-container": "#ffdad6",
+              "primary-container": "#d4af37",
+              "inverse-on-surface": "#313030",
+              "on-tertiary": "#2f3131",
+              "on-tertiary-fixed-variant": "#454747"
+            },
+            "borderRadius": {
+              "DEFAULT": "0.25rem",
+              "lg": "0.5rem",
+              "xl": "0.75rem",
+              "full": "9999px"
+            },
+            "spacing": {
+              "margin-desktop": "80px",
+              "container-max": "1440px",
+              "gutter": "24px",
+              "margin-mobile": "24px",
+              "section-gap": "120px"
+            },
+            "fontFamily": {
+              "headline-lg-mobile": ["Bodoni Moda"],
+              "label-caps": ["Manrope"],
+              "body-md": ["Manrope"],
+              "display-lg": ["Bodoni Moda"],
+              "body-lg": ["Manrope"],
+              "headline-md": ["Bodoni Moda"],
+              "headline-lg": ["Bodoni Moda"]
+            },
+            "fontSize": {
+              "headline-lg-mobile": ["32px", {
+                "lineHeight": "1.2", "fontWeight": "500"
+              }
+              ],
+              "label-caps": ["12px", {
+                "lineHeight": "1.0", "letterSpacing": "0.2em", "fontWeight": "600"
+              }
+              ],
+              "body-md": ["16px", {
+                "lineHeight": "1.5", "fontWeight": "400"
+              }
+              ],
+              "display-lg": ["72px", {
+                "lineHeight": "1.1", "letterSpacing": "-0.02em", "fontWeight": "600"
+              }
+              ],
+              "body-lg": ["18px", {
+                "lineHeight": "1.6", "fontWeight": "300"
+              }
+              ],
+              "headline-md": ["32px", {
+                "lineHeight": "1.3", "letterSpacing": "0.05em", "fontWeight": "400"
+              }
+              ],
+              "headline-lg": ["48px", {
+                "lineHeight": "1.2", "fontWeight": "500"
+              }
+              ]
+            }
+          }
+        }
+      }
+    </script>
+  </head>
+  <body class="bg-background text-on-surface font-body-md selection:bg-primary selection:text-on-primary overflow-x-hidden">
+      <!--Header with Mobile Menu-->
+    <nav class="fixed top-0 w-full z-50 backdrop-blur-xl bg-surface/90 border-b border-primary/20 px-4 md:px-margin-desktop py-4 flex justify-between items-center max-w-container-max mx-auto left-1/2 -translate-x-1/2 shadow-lg">
+      <div class="font-headline-md text-2xl md:text-headline-md tracking-widest text-primary uppercase cursor-pointer z-50">BERBIOKER</div>
+      <!--Desktop Navigation-->
+      <div class="hidden lg:flex gap-8 items-center">
+        <a class="font-label-caps text-label-caps text-on-surface/70 hover:text-primary transition-colors" data-translate="nav_home" href="#home">Home</a>
+        <a class="font-label-caps text-label-caps text-on-surface/70 hover:text-primary transition-colors" data-translate="nav_benefits" href="#benefits">Benefits</a>
+        <a class="font-label-caps text-label-caps text-on-surface/70 hover:text-primary transition-colors" data-translate="nav_ingredients" href="#ingredients">Ingredients</a>
+        <a class="font-label-caps text-label-caps text-on-surface/70 hover:text-primary transition-colors" data-translate="nav_results" href="#results">Results</a>
+        <a class="font-label-caps text-label-caps text-on-surface/70 hover:text-primary transition-colors" data-translate="nav_faq" href="#faq">FAQ</a>
+      </div>
+      <div class="flex items-center gap-4 md:gap-6">
+        <button class="font-label-caps text-label-caps text-primary hover:text-primary-fixed transition-colors flex items-center gap-1 group" onclick="toggleLanguage()">
+          <span id="lang-indicator" class="">EN</span>
+          <span class="material-symbols-outlined text-xs group-hover:rotate-180 transition-transform">language</span>
+        </button>
+        <a class="hidden sm:inline-flex btn-luxury px-6 py-2 font-label-caps text-label-caps uppercase text-primary border-primary/40" data-translate="btn_shop_now" href="#product">Shop Now</a>
+        
+        <!--Mobile Menu Toggle-->
+        <button class="lg:hidden text-primary z-50" id="menu-toggle" onclick="toggleMobileMenu()">
+          <span class="material-symbols-outlined text-3xl" id="menu-icon">menu</span>
+        </button>
+      </div>
+
+      </nav>
+      <!--Mobile Navigation Overlay-->
+      <div id="mobile-menu" class="fixed top-0 left-0 w-full bg-surface/95 backdrop-blur-lg z-40 lg:hidden px-6 pt-28 pb-8 text-center overflow-y-auto hidden">
+        <a class="font-headline-md text-xl text-on-surface hover:text-primary transition-colors" data-translate="nav_home" href="#home" onclick="toggleMobileMenu()">Home</a>
+        <a class="font-headline-md text-xl text-on-surface hover:text-primary transition-colors" data-translate="nav_benefits" href="#benefits" onclick="toggleMobileMenu()">Benefits</a>
+        <a class="font-headline-md text-xl text-on-surface hover:text-primary transition-colors" data-translate="nav_ingredients" href="#ingredients" onclick="toggleMobileMenu()">Ingredients</a>
+        <a class="font-headline-md text-xl text-on-surface hover:text-primary transition-colors" data-translate="nav_results" href="#results" onclick="toggleMobileMenu()">Results</a>
+        <a class="font-headline-md text-xl text-on-surface hover:text-primary transition-colors" data-translate="nav_faq" href="#faq" onclick="toggleMobileMenu()">FAQ</a>
+        <a class="btn-luxury px-10 py-4 mt-4 font-label-caps text-label-caps uppercase text-primary" data-translate="btn_shop_now" href="#product" onclick="toggleMobileMenu()">Shop Now</a>
+      </div>
+    
+    <!--Hero Section-->
+    <header class="relative h-screen flex items-center overflow-hidden" id="home">
+      <div class="absolute inset-0 z-0 overflow-hidden">
+        <img alt="Hero Image" class="parallax-bg w-full h-[120%] object-cover brightness-[0.4] scale-110" id="hero-img" src="img/fondo.png">
+      </div>
+      <div class="relative z-10 px-6 md:px-margin-desktop max-w-container-max mx-auto w-full reveal-up">
+        <div class="max-w-4xl">
+          <h1 class="font-display-lg text-4xl sm:text-5xl md:text-7xl lg:text-display-lg text-on-surface mb-6 hero-text-shadow leading-tight md:leading-none" data-translate="hero_title">Advanced Hair Care for Stronger, Healthier Hair</h1>
+          <p class="font-body-lg text-lg md:text-body-lg text-on-surface/80 mb-10 max-w-2xl" data-translate="hero_subtitle">Powered by Bergamot, Rosemary, Biotin, and Keratin to transform your hair from roots to ends with botanical potency.</p>
+          <div class="flex flex-col sm:flex-row gap-4">
+            <a class="btn-luxury px-10 py-4 font-label-caps text-label-caps text-primary w-full sm:w-auto" data-translate="btn_shop_now" href="#product">Shop Now</a>
+            <a class="px-10 py-4 font-label-caps text-label-caps text-on-surface border-b border-primary/30 hover:border-primary transition-all hover:text-primary text-center" data-translate="btn_learn_more" href="#benefits">Learn More</a>
+          </div>
+          <div class="mt-12 md:mt-20 flex flex-wrap gap-6 md:gap-12 border-t border-white/10 pt-8">
+            <div class="flex items-center gap-3">
+              <span class="material-symbols-outlined" style="font-variation-settings: &quot;FILL&quot; 1;">shield</span>
+              <span class="font-label-caps text-xs md:text-label-caps" data-translate="trust_strengthen">Strengthens</span>
+            </div>
+            <div class="flex items-center gap-3">
+              <span class="material-symbols-outlined" style="font-variation-settings: &quot;FILL&quot; 1;">eco</span>
+              <span class="font-label-caps text-xs md:text-label-caps" data-translate="trust_nourish">Nourishes</span>
+            </div>
+            <div class="flex items-center gap-3">
+              <span class="material-symbols-outlined" style="font-variation-settings: &quot;FILL&quot; 1;">verified_user</span>
+              <span class="font-label-caps text-xs md:text-label-caps" data-translate="trust_protect">Protects</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!--Benefits Section-->
+    <section class="py-16 md:py-section-gap px-6 md:px-margin-desktop bg-surface-container-lowest" id="benefits">
+      <div class="text-center mb-12 md:mb-16 reveal-up">
+        <h2 class="font-headline-lg text-3xl md:text-headline-lg text-primary mb-4" data-translate="benefits_section_title">Uncompromising Benefits</h2>
+        <div class="w-16 md:w-24 h-px bg-primary mx-auto"></div>
+      </div>
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8 max-w-container-max mx-auto reveal-up">
+        <div class="luxury-card p-6 md:p-8 group stagger-item">
+          <span class="material-symbols-outlined text-4xl mb-6 block" data-icon="fitness_center">fitness_center</span>
+          <h3 class="font-headline-md text-xl md:text-headline-md mb-4" data-translate="benefit_1_title">Strengthens Roots</h3>
+          <p class="font-body-md text-body-md text-on-surface/70" data-translate="benefit_1_desc">Deep penetration into the follicle to build strength where hair begins.</p>
+        </div>
+        <div class="luxury-card p-6 md:p-8 group stagger-item">
+          <span class="material-symbols-outlined text-4xl mb-6 block" data-icon="content_cut">content_cut</span>
+          <h3 class="font-headline-md text-xl md:text-headline-md mb-4" data-translate="benefit_2_title">Reduces Fall</h3>
+          <p class="font-body-md text-body-md text-on-surface/70" data-translate="benefit_2_desc">Clinically formulated to minimize hair shedding and breakage.</p>
+        </div>
+        <div class="luxury-card p-6 md:p-8 group stagger-item">
+          <span class="material-symbols-outlined text-4xl mb-6 block" data-icon="spa">spa</span>
+          <h3 class="font-headline-md text-xl md:text-headline-md mb-4" data-translate="benefit_3_title">Nourishes Scalp</h3>
+          <p class="font-body-md text-body-md text-on-surface/70" data-translate="benefit_3_desc">Maintains a healthy scalp environment for optimal growth.</p>
+        </div>
+        <div class="luxury-card p-6 md:p-8 group stagger-item">
+          <span class="material-symbols-outlined text-4xl mb-6 block" data-icon="auto_awesome">auto_awesome</span>
+          <h3 class="font-headline-md text-xl md:text-headline-md mb-4" data-translate="benefit_4_title">Natural Shine</h3>
+          <p class="font-body-md text-body-md text-on-surface/70" data-translate="benefit_4_desc">Restores luster and silkiness without heavy chemical residue.</p>
+        </div>
+        <div class="luxury-card p-6 md:p-8 group stagger-item">
+          <span class="material-symbols-outlined text-4xl mb-6 block" data-icon="calendar_today">calendar_today</span>
+          <h3 class="font-headline-md text-xl md:text-headline-md mb-4" data-translate="benefit_5_title">Daily Formula</h3>
+          <p class="font-body-md text-body-md text-on-surface/70" data-translate="benefit_5_desc">Gentle enough for everyday use on all hair types.</p>
+        </div>
+        <div class="luxury-card p-6 md:p-8 group stagger-item">
+          <span class="material-symbols-outlined text-4xl mb-6 block" data-icon="family_restroom">family_restroom</span>
+          <h3 class="font-headline-md text-xl md:text-headline-md mb-4" data-translate="benefit_6_title">Universal Use</h3>
+          <p class="font-body-md text-body-md text-on-surface/70" data-translate="benefit_6_desc">Effective for men and women across all hair textures.</p>
+        </div>
+      </div>
+    </section>
+    <!--Ingredients Section-->
+    <section class="py-16 md:py-section-gap px-6 md:px-margin-desktop bg-surface overflow-hidden" id="ingredients">
+      <div class="max-w-container-max mx-auto flex flex-col lg:flex-row items-center gap-12 md:gap-16">
+        <div class="w-full lg:w-1/2 reveal-up">
+          <h2 class="font-headline-lg text-3xl md:text-headline-lg text-primary mb-8" data-translate="ingredients_title">Botanical Potency</h2>
+          <div class="space-y-8 md:space-y-12">
+            <div class="flex gap-4 md:gap-6 group">
+              <div class="w-14 h-14 md:w-16 md:h-16 rounded-full border border-primary/30 flex items-center justify-center shrink-0 group-hover:bg-primary transition-all duration-500">
+                <span class="material-symbols-outlined group-hover:text-black">sunny</span>
+              </div>
+              <div>
+                <h4 class="font-headline-md text-xl md:text-headline-md text-primary mb-2" data-translate="ing_bergamot">Bergamot</h4>
+                <p class="font-body-md text-body-md text-on-surface/70" data-translate="ing_bergamot_desc">Refreshes and stimulates the scalp, providing essential antioxidants for follicle health.</p>
+              </div>
+            </div>
+            <div class="flex gap-4 md:gap-6 group">
+              <div class="w-14 h-14 md:w-16 md:h-16 rounded-full border border-primary/30 flex items-center justify-center shrink-0 group-hover:bg-primary transition-all duration-500">
+                <span class="material-symbols-outlined group-hover:text-black">psychology</span>
+              </div>
+              <div>
+                <h4 class="font-headline-md text-xl md:text-headline-md text-primary mb-2" data-translate="ing_rosemary">Rosemary</h4>
+                <p class="font-body-md text-body-md text-on-surface/70" data-translate="ing_rosemary_desc">Promotes circulation and natural growth while strengthening the hair shaft.</p>
+              </div>
+            </div>
+            <div class="flex gap-4 md:gap-6 group">
+              <div class="w-14 h-14 md:w-16 md:h-16 rounded-full border border-primary/30 flex items-center justify-center shrink-0 group-hover:bg-primary transition-all duration-500">
+                <span class="material-symbols-outlined group-hover:text-black">grain</span>
+              </div>
+              <div>
+                <h4 class="font-headline-md text-xl md:text-headline-md text-primary mb-2" data-translate="ing_biotin">Biotin &amp; Keratin</h4>
+                <p class="font-body-md text-body-md text-on-surface/70" data-translate="ing_biotin_desc">Reconstructs hair fibers and improves texture for a visibly fuller appearance.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="w-full lg:w-1/2 relative reveal-up">
+          <div class="absolute -top-10 -right-10 w-48 md:w-64 h-48 md:h-64 bg-primary/10 rounded-full blur-3xl"></div>
+          <div class="relative z-10 border border-primary/20 p-2 md:p-4 luxury-card">
+            <img alt="Natural Ingredients" class="w-full grayscale hover:grayscale-0 transition-all duration-1000 cursor-crosshair rounded" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDSaIxnJChDOnVOOFwQR7DDWHiqHMxEEvBry1FOmO0qVPYsn_brdYJCnltkmLVYq4Cs6l702nxtfKbYqYtrP3pkFhBC6akRyD-o5Xr0dBv1MOchtDKfXFjiD5UihenmxYDBQ9b5LGzsGR57gcknNi1OuC3T_aS_C7OE8DEVG31nH7icDsf84ZXv8qyHzFClKRdND5Ci23_ENgSg34USCcjLQt-YVr8IT6VCHTTwfNANjyCf15gzIi7tl24un1ZLl9xdcM4qYFrRMgTL">
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--Results Section-->
+    <section class="py-16 md:py-section-gap bg-surface-container-low px-6 md:px-margin-desktop" id="results">
+      <div class="max-w-4xl mx-auto text-center mb-12 md:mb-16 reveal-up">
+        <h2 class="font-headline-lg text-3xl md:text-headline-lg text-primary mb-4" data-translate="results_title">Visible Transformations</h2>
+        <p class="font-body-lg text-lg md:text-body-lg text-on-surface/70" data-translate="results_subtitle">Real results from our 90-day clinical trial.</p>
+      </div>
+      <div class="max-w-container-max mx-auto grid grid-cols-1 lg:grid-cols-2 gap-10 md:gap-12 reveal-up">
+        <div class="relative group overflow-hidden border border-white/5 shadow-2xl">
+          <div class="absolute top-4 left-4 bg-black/50 backdrop-blur-md px-3 md:px-4 py-1 font-label-caps text-[10px] md:text-label-caps text-white z-20" data-translate="before">BEFORE</div>
+          <div class="absolute top-4 right-4 bg-primary px-3 md:px-4 py-1 font-label-caps text-[10px] md:text-label-caps text-black z-20" data-translate="after">AFTER</div>
+          <div class="overflow-hidden">
+            <img alt="Results Comparison" class="w-full group-hover:scale-105 transition-transform duration-1000" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCqfPHDauvDBGdfLiU1wrwlikjgPjuQKfR9hbgju1K6TOyL5I6la7ejCkfWdd7f9JGc90meqiEbA7fsqm3j_w9uCnIFYsvwd39_F_sfhvJkzlhbbOiGuox2_oH4cp13ROmE_Ga-sGnGWlaH9tDPiBUlCxDTuDOc9V05UPqQcnWXB6gph08CBBi7Z-Tsp6dxeOKjg2Z5_SgFID_psToahdZPZ_Xoh8F0L6jSU9_4W2IAIi9AkGyltWDpXnfZ3cL_fQq6NCRiQqpAMRvw">
+          </div>
+        </div>
+        <div class="flex flex-col justify-center space-y-6 md:space-y-8">
+          <div class="border-l-2 border-primary pl-6 md:pl-8 stagger-item">
+            <div class="text-4xl md:text-5xl font-display-lg text-primary mb-2">94%</div>
+            <p class="font-body-md text-sm md:text-base text-on-surface/70" data-translate="stat_1">Reported significant reduction in hair fall after 4 weeks.</p>
+          </div>
+          <div class="border-l-2 border-primary pl-6 md:pl-8 stagger-item">
+            <div class="text-4xl md:text-5xl font-display-lg text-primary mb-2">88%</div>
+            <p class="font-body-md text-sm md:text-base text-on-surface/70" data-translate="stat_2">Noticed thicker and fuller hair texture within 60 days.</p>
+          </div>
+          <div class="border-l-2 border-primary pl-6 md:pl-8 stagger-item">
+            <div class="text-4xl md:text-5xl font-display-lg text-primary mb-2">99%</div>
+            <p class="font-body-md text-sm md:text-base text-on-surface/70" data-translate="stat_3">Agreed that hair felt cleaner and refreshed without irritation.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--Product Section-->
+    <section class="py-16 md:py-section-gap px-6 md:px-margin-desktop bg-surface" id="product">
+      <div class="max-w-container-max mx-auto grid grid-cols-1 lg:grid-cols-2 gap-12 md:gap-16 items-start">
+        <div class="product-slider">
+          <div class="product-image-wrapper luxury-card shadow-2xl">
+            <img
+              src="img/foto1.png"
+              alt="BERBIOKER Shampoo promotional image 1"
+              class="slider-image active"
+              data-slide="0"
+            >
+
+            <img
+              src="img/foto2.png"
+              alt="BERBIOKER Shampoo promotional image 2"
+              class="slider-image"
+              data-slide="1"
+            >
+
+            <button class="slider-btn prev" type="button" onclick="prevSlide()" aria-label="Previous product image">
+              <span class="material-symbols-outlined">arrow_back_ios_new</span>
+            </button>
+
+            <button class="slider-btn next" type="button" onclick="nextSlide()" aria-label="Next product image">
+              <span class="material-symbols-outlined">arrow_forward_ios</span>
+            </button>
+          </div>
+
+          <div class="slider-dots" aria-label="Product image selector">
+            <span class="dot active" onclick="goToSlide(0)"></span>
+            <span class="dot" onclick="goToSlide(1)"></span>
+          </div>
+        </div>
+        <div class="space-y-6 md:space-y-8 reveal-up">
+          <div>
+            <h2 class="font-headline-lg text-3xl md:text-headline-lg text-primary mb-2">BERBIOKER Shampoo</h2>
+            <div class="flex items-center gap-4 mb-4">
+              <div class="flex text-primary">
+                <span class="material-symbols-outlined text-base md:text-xl" style="font-variation-settings: &quot;FILL&quot; 1;">star</span>
+                <span class="material-symbols-outlined text-base md:text-xl" style="font-variation-settings: &quot;FILL&quot; 1;">star</span>
+                <span class="material-symbols-outlined text-base md:text-xl" style="font-variation-settings: &quot;FILL&quot; 1;">star</span>
+                <span class="material-symbols-outlined text-base md:text-xl" style="font-variation-settings: &quot;FILL&quot; 1;">star</span>
+                <span class="material-symbols-outlined text-base md:text-xl" style="font-variation-settings: &quot;FILL&quot; 1;">star</span>
+              </div>
+              <span class="text-on-surface/50 text-xs md:text-sm">(1,248 reviews)</span>
+            </div>
+            <p class="font-body-lg text-base md:text-body-lg text-on-surface/80" data-translate="product_desc">Professional grade botanical formula designed for advanced hair recovery. Combines the best of nature and science to deliver salon-quality results at home.</p>
+          </div>
+          <div class="grid grid-cols-2 gap-3 md:gap-4">
+            <div class="border border-white/10 p-3 md:p-4 group hover:border-primary/40 transition-colors">
+              <span class="material-symbols-outlined mb-2 text-xl">water_drop</span>
+              <p class="font-label-caps text-[9px] md:text-[10px] uppercase text-primary" data-translate="feat_1">Deep Hydration</p>
+            </div>
+            <div class="border border-white/10 p-3 md:p-4 group hover:border-primary/40 transition-colors">
+              <span class="material-symbols-outlined mb-2 text-xl">verified</span>
+              <p class="font-label-caps text-[9px] md:text-[10px] uppercase text-primary" data-translate="feat_2">pH Balanced</p>
+            </div>
+            <div class="border border-white/10 p-3 md:p-4 group hover:border-primary/40 transition-colors">
+              <span class="material-symbols-outlined mb-2 text-xl">science</span>
+              <p class="font-label-caps text-[9px] md:text-[10px] uppercase text-primary" data-translate="feat_3">Paraben Free</p>
+            </div>
+            <div class="border border-white/10 p-3 md:p-4 group hover:border-primary/40 transition-colors">
+              <span class="material-symbols-outlined mb-2 text-xl">volunteer_activism</span>
+              <p class="font-label-caps text-[9px] md:text-[10px] uppercase text-primary" data-translate="feat_4">Cruelty Free</p>
+            </div>
+          </div>
+          <div class="py-6 md:py-8 border-y border-white/10">
+            <div class="flex items-end gap-3 md:gap-4 mb-6">
+              <span class="text-3xl md:text-4xl font-display-lg text-primary">$49.00</span>
+              <span class="text-lg md:text-xl text-on-surface/40 line-through mb-1">$65.00</span>
+              <span class="bg-primary/20 text-primary px-2 py-1 text-[10px] md:text-xs font-bold mb-2">SAVE 25%</span>
+            </div>
+            <div class="flex flex-col sm:flex-row gap-4 items-center">
+              <div class="flex border border-white/20 w-full sm:w-auto justify-between">
+                <button class="p-4 hover:bg-white/5 transition-colors text-primary flex-1 sm:flex-none" onclick="updateQty(-1)">-</button>
+                <input class="w-12 bg-transparent text-center border-none focus:ring-0" id="qty" readonly="" type="text" value="1">
+                <button class="p-4 hover:bg-white/5 transition-colors text-primary flex-1 sm:flex-none" onclick="updateQty(1)">+</button>
+              </div>
+            </div>
+            <button
+              class="w-full mt-4 bg-primary text-black py-4 font-label-caps text-label-caps font-bold hover:bg-primary-fixed hover:shadow-[0_0_20px_rgba(242,202,80,0.5)] transition-all"
+              onclick="buyWhatsApp()"
+              data-translate="btn_buy_now">
+              Buy It Now
+            </button>
+            <!--Trust Badges-->
+            <div class="mt-8 pt-6 border-t border-white/5">
+              <div class="flex justify-between items-center opacity-60 grayscale hover:grayscale-0 transition-all gap-2 md:gap-4 overflow-x-auto pb-2 scrollbar-hide">
+                <div class="flex flex-col items-center gap-1 shrink-0">
+                  <span class="material-symbols-outlined text-2xl md:text-3xl">payments</span>
+                  <span class="text-[8px] uppercase tracking-tighter">Secure Pay</span>
+                </div>
+                <div class="flex flex-col items-center gap-1 shrink-0">
+                  <span class="material-symbols-outlined text-2xl md:text-3xl">credit_card</span>
+                  <span class="text-[8px] uppercase tracking-tighter">All Cards</span>
+                </div>
+                <div class="flex flex-col items-center gap-1 shrink-0">
+                  <span class="material-symbols-outlined text-2xl md:text-3xl">lock</span>
+                  <span class="text-[8px] uppercase tracking-tighter">SSL Secure</span>
+                </div>
+                <div class="flex flex-col items-center gap-1 shrink-0">
+                  <span class="material-symbols-outlined text-2xl md:text-3xl">local_shipping</span>
+                  <span class="text-[8px] uppercase tracking-tighter">Fast Ship</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--FAQ Section-->
+    <section class="py-16 md:py-section-gap px-6 md:px-margin-desktop bg-surface-container-lowest" id="faq">
+      <div class="max-w-3xl mx-auto reveal-up">
+        <h2 class="font-headline-lg text-3xl md:text-headline-lg text-primary mb-8 md:mb-12 text-center" data-translate="faq_title">Frequently Asked Questions</h2>
+        <div class="space-y-4">
+          <details class="group border-b border-white/10 pb-4">
+            <summary class="flex justify-between items-center cursor-pointer py-4 hover:text-primary transition-colors">
+              <span class="font-headline-md text-base md:text-body-lg text-on-surface pr-4" data-translate="faq_1_q">Is it safe for color-treated hair?</span>
+              <span class="material-symbols-outlined group-open:rotate-180 transition-transform">expand_more</span>
+            </summary>
+            <p class="font-body-md text-sm md:text-base text-on-surface/60 pt-2 pb-4" data-translate="faq_1_a">Yes, BERBIOKER is pH-balanced and sulfate-free, making it perfectly safe for color-treated and chemically-processed hair.</p>
+          </details>
+          <details class="group border-b border-white/10 pb-4">
+            <summary class="flex justify-between items-center cursor-pointer py-4 hover:text-primary transition-colors">
+              <span class="font-headline-md text-base md:text-body-lg text-on-surface pr-4" data-translate="faq_2_q">How often should I use it?</span>
+              <span class="material-symbols-outlined group-open:rotate-180 transition-transform">expand_more</span>
+            </summary>
+            <p class="font-body-md text-sm md:text-base text-on-surface/60 pt-2 pb-4" data-translate="faq_2_a">For best results, we recommend using it every other day or at least 3 times a week to maintain the botanical nutrient levels in your scalp.</p>
+          </details>
+          <details class="group border-b border-white/10 pb-4">
+            <summary class="flex justify-between items-center cursor-pointer py-4 hover:text-primary transition-colors">
+              <span class="font-headline-md text-base md:text-body-lg text-on-surface pr-4" data-translate="faq_3_q">How long until I see results?</span>
+              <span class="material-symbols-outlined group-open:rotate-180 transition-transform">expand_more</span>
+            </summary>
+            <p class="font-body-md text-sm md:text-base text-on-surface/60 pt-2 pb-4" data-translate="faq_3_a">Most users notice improved texture and shine after the first wash. Significant reduction in hair fall and visible thickness usually appears within 4-8 weeks of consistent use.</p>
+          </details>
+        </div>
+      </div>
+    </section>
+    <!--Final CTA Section-->
+    <section class="py-16 md:py-section-gap px-6 md:px-margin-desktop bg-primary text-black text-center overflow-hidden relative reveal-up">
+      <div class="absolute inset-0 opacity-10">
+        <div class="absolute top-0 left-0 w-full h-full" style="background-image: radial-gradient(circle, #000 1px, transparent 1px); background-size: 40px 40px;"></div>
+      </div>
+      <div class="relative z-10 max-w-4xl mx-auto">
+        <h2 class="font-headline-lg text-3xl md:text-headline-lg mb-6 leading-tight" data-translate="cta_final_title">Transform Your Hair Care Routine Today</h2>
+        <p class="font-body-lg text-base md:text-body-lg mb-10 max-w-2xl mx-auto opacity-80" data-translate="cta_final_subtitle">Experience the synergy of botanical luxury and hair science.</p>
+        <div class="flex flex-col sm:flex-row gap-4 justify-center">
+          <a class="bg-black text-primary px-12 py-5 font-label-caps text-label-caps hover:bg-surface-container-highest hover:scale-105 transition-all shadow-xl w-full sm:w-auto" data-translate="btn_buy_now" href="#product">Buy It Now</a>
+          <a class="border-2 border-black px-12 py-5 font-label-caps text-label-caps hover:bg-black hover:text-primary hover:scale-105 transition-all w-full sm:w-auto" data-translate="btn_contact_us" href="#contact">Contact Us</a>
+        </div>
+      </div>
+    </section>
+    <!--Footer-->
+    <footer class="bg-surface-container-lowest border-t border-outline-variant/20" id="contact">
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10 md:gap-gutter px-6 md:px-margin-desktop py-16 md:py-section-gap max-w-container-max mx-auto">
+        <div class="space-y-6">
+          <div class="font-headline-md text-2xl md:text-headline-md text-primary tracking-widest uppercase">BERBIOKER</div>
+          <p class="font-body-md text-sm md:text-base text-on-surface/50" data-translate="footer_desc">Botanical Opulence in Hair Science. Formulated for high-performance results without compromise.</p>
+        </div>
+        <!-- 
+        <div>
+          <h5 class="font-label-caps text-label-caps text-primary mb-6" data-translate="footer_quick_links">Quick Links</h5>
+        
+          <ul class="space-y-4">
+    <li>
+        <a class="text-sm md:text-on-surface/50 hover:text-primary transition-colors"
+           href="#"
+           data-translate="privacy_policy">
+            Privacy Policy
+        </a>
+    </li>
+
+    <li>
+        <a class="text-sm md:text-on-surface/50 hover:text-primary transition-colors"
+           href="#"
+           data-translate="terms_service">
+            Terms of Service
+        </a>
+    </li>
+
+    <li>
+        <a class="text-sm md:text-on-surface/50 hover:text-primary transition-colors"
+           href="#"
+           data-translate="shipping_info">
+            Shipping Info
+        </a>
+    </li>
+</ul>
+
+        </div>
+        --> 
+        <div>
+          <h5 class="font-label-caps text-label-caps text-primary mb-6" data-translate="footer_contact">Contact</h5>
+          <ul class="space-y-4">
+            <li class="flex items-center gap-2 text-sm text-on-surface/50">
+              <span class="material-symbols-outlined text-sm">mail</span>
+              berbioker@gmail.com
+            </li>
+            <li class="flex items-center gap-2 text-sm text-on-surface/50">
+              <span class="material-symbols-outlined text-sm">phone</span>
+              +52 664 416 0315
+            </li>
+            <li class="flex items-center gap-2 text-sm text-on-surface/50">
+              <span class="material-symbols-outlined text-sm">location_on</span>
+              Baja California, Mexico
+            </li>
+          </ul>
+        </div>
+        <div>
+          <h5 class="font-label-caps text-label-caps text-primary mb-6" data-translate="footer_social">Follow Us</h5>
+          <div class="flex gap-4">
+
+    <!-- Instagram -->
+    <a
+       class="w-10 h-10 rounded-full border border-white/10 flex items-center justify-center text-xs text-on-surface/50 hover:text-primary hover:border-primary transition-all"
+       href="https://www.instagram.com/berbioker?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
+       target="_blank"
+       rel="noopener noreferrer">
+       IG
+    </a>
+
+    <!-- Facebook -->
+    <a
+       class="w-10 h-10 rounded-full border border-white/10 flex items-center justify-center text-xs text-on-surface/50 hover:text-primary hover:border-primary transition-all"
+       href="https://www.facebook.com/profile.php?id=61576565183094"
+       target="_blank"
+       rel="noopener noreferrer">
+       FB
+    </a>
+
+    <!-- WhatsApp -->
+    <a
+      class="w-10 h-10 rounded-full border border-white/10 flex items-center justify-center text-xs text-on-surface/50 hover:text-primary hover:border-primary transition-all"
+      href="https://wa.me/526644160315?text=Hola,%20me%20gustar%C3%ADa%20obtener%20m%C3%A1s%20informaci%C3%B3n%20sobre%20los%20productos%20BERBIOKER."
+      target="_blank"
+      rel="noopener noreferrer">
+      WA
+    </a>
+
+</div>
+        </div>
+      </div>
+      <div class="border-t border-white/5 py-8 text-center px-6 md:px-margin-desktop">
+        <p class="font-label-caps text-[9px] md:text-[10px] text-on-surface/30"
+          data-translate="footer_copyright">
+          © 2024 BERBIOKER. All rights reserved. Botanical Opulence in Hair Science.
+        </p>
+      </div>
+    </footer>
+
+    <!--Product Image Modal-->
+    <div id="product-modal" class="product-modal hidden" aria-hidden="true">
+      <button id="product-modal-close" class="product-modal-close" type="button" aria-label="Close image preview">
+        <span class="material-symbols-outlined">close</span>
+      </button>
+      <img id="product-modal-image" src="" alt="BERBIOKER product preview">
+    </div>
+<script src="script.js"></script>
+    </body></html>
