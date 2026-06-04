@@ -247,6 +247,44 @@ html {
   box-shadow: 0 0 12px rgba(242, 202, 80, 0.45);
 }
 
+
+/* Formula Science Section */
+#formula{
+  position: relative;
+}
+
+#formula::before{
+  content: '';
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background:
+    radial-gradient(circle at 15% 20%, rgba(242,202,80,0.07), transparent 30%),
+    radial-gradient(circle at 85% 70%, rgba(242,202,80,0.045), transparent 28%);
+}
+
+#formula > div{
+  position: relative;
+  z-index: 1;
+}
+
+.formula-card{
+  min-height: 100%;
+  border: 1px solid rgba(242,202,80,0.14);
+  border-top: 1px solid rgba(242,202,80,0.55);
+}
+
+.formula-card:hover{
+  border-color: rgba(242,202,80,0.38);
+}
+
+.formula-note{
+  border-radius: 18px;
+  box-shadow:
+    0 20px 70px rgba(0,0,0,0.35),
+    0 0 28px rgba(242,202,80,0.08);
+}
+
 /* Product Image Modal */
 .product-modal {
   position: fixed;

@@ -3,59 +3,83 @@ const translations = {
     nav_home: "Home",
     nav_benefits: "Benefits",
     nav_ingredients: "Ingredients",
-    nav_results: "Results",
+    nav_results: "Highlights",
     nav_faq: "FAQ",
     btn_shop_now: "Shop Now",
     btn_learn_more: "Learn More",
-    hero_title: "Advanced Hair Care for Stronger, Healthier Hair",
-    hero_subtitle: "Powered by Bergamot, Rosemary, Biotin, and Keratin to transform your hair from roots to ends with botanical potency.",
+
+    hero_title: "Advanced Botanical Hair Care for Stronger, Healthier-Looking Hair",
+    hero_subtitle: "A premium natural extract shampoo powered by bergamot, rosemary, biotin and keratin to support scalp balance, strength, softness and shine from roots to ends.",
+
     trust_strengthen: "Strengthens",
-    trust_nourish: "Nourishes",
-    trust_protect: "Protects",
-    benefits_section_title: "Uncompromising Benefits",
-    benefit_1_title: "Strengthens Roots",
-    benefit_1_desc: "Deep penetration into the follicle to build strength where hair begins.",
-    benefit_2_title: "Reduces Fall",
-    benefit_2_desc: "Clinically formulated to minimize hair shedding and breakage.",
-    benefit_3_title: "Nourishes Scalp",
-    benefit_3_desc: "Maintains a healthy scalp environment for optimal growth.",
-    benefit_4_title: "Natural Shine",
-    benefit_4_desc: "Restores luster and silkiness without heavy chemical residue.",
-    benefit_5_title: "Daily Formula",
-    benefit_5_desc: "Gentle enough for everyday use on all hair types.",
-    benefit_6_title: "Universal Use",
-    benefit_6_desc: "Effective for men and women across all hair textures.",
-    ingredients_title: "Botanical Potency",
+    trust_nourish: "Balances",
+    trust_protect: "Revitalizes",
+
+    benefits_section_title: "Botanical Benefits for Hair Care",
+    benefit_1_title: "Scalp Stimulation",
+    benefit_1_desc: "Bergamot and rosemary are selected to help refresh the scalp and support a healthier environment for stronger-looking hair.",
+    benefit_2_title: "Antioxidant Support",
+    benefit_2_desc: "Natural compounds such as flavonoids and phenolic acids help protect the hair and scalp from dullness caused by daily stressors.",
+    benefit_3_title: "Scalp Balance",
+    benefit_3_desc: "The formula is designed to help keep the scalp feeling clean, light and balanced, reducing excess oil buildup.",
+    benefit_4_title: "Strength & Elasticity",
+    benefit_4_desc: "Biotin and keratin help reinforce the appearance of hair fibers, supporting better resistance to breakage and dryness.",
+    benefit_5_title: "Softness & Manageability",
+    benefit_5_desc: "Keratin helps smooth the hair surface, leaving a softer feel, easier styling and a healthier-looking finish.",
+    benefit_6_title: "Root-to-End Care",
+    benefit_6_desc: "A complete daily-care blend created to revitalize, nourish and protect hair from the scalp to the ends.",
+
+    ingredients_title: "Four Key Ingredients",
     ing_bergamot: "Bergamot",
-    ing_bergamot_desc: "Refreshes and stimulates the scalp, providing essential antioxidants for follicle health.",
+    ing_bergamot_desc: "Known for its fresh citrus profile, bergamot supports scalp balance and helps maintain a clean, lightweight feel.",
     ing_rosemary: "Rosemary",
-    ing_rosemary_desc: "Promotes circulation and natural growth while strengthening the hair shaft.",
-    ing_biotin: "Biotin & Keratin",
-    ing_biotin_desc: "Reconstructs hair fibers and improves texture for a visibly fuller appearance.",
-    results_title: "Visible Transformations",
-    results_subtitle: "Real results from our 90-day clinical trial.",
-    before: "BEFORE",
-    after: "AFTER",
-    stat_1: "Reported significant reduction in hair fall after 4 weeks.",
-    stat_2: "Noticed thicker and fuller hair texture within 60 days.",
-    stat_3: "Agreed that hair felt cleaner and refreshed without irritation.",
-    product_desc: "Professional grade botanical formula designed for advanced hair recovery. Combines the best of nature and science to deliver salon-quality results at home.",
-    feat_1: "Deep Hydration",
-    feat_2: "pH Balanced",
-    feat_3: "Paraben Free",
-    feat_4: "Cruelty Free",
+    ing_rosemary_desc: "A revitalizing botanical extract traditionally valued for refreshing the scalp and supporting fuller-looking hair.",
+    ing_biotin: "Biotin",
+    ing_biotin_desc: "Also known as vitamin B7, biotin supports the appearance of stronger strands and helps improve the look of thickness and resilience.",
+    ing_keratin: "Keratin",
+    ing_keratin_desc: "A key structural protein associated with hair strength, softness, smoothness and protection against dryness.",
+
+    formula_eyebrow: "Ingredient science",
+    formula_title: "A formula built around scalp balance, strength and shine",
+    formula_subtitle: "The new content highlights how each ingredient contributes to the complete BERBIOKER experience: a clean scalp feel, stronger-looking fibers, improved manageability and a polished finish.",
+    formula_bergamot_title: "Bergamot: scalp freshness",
+    formula_bergamot_desc: "Bergamot contains naturally occurring compounds such as limonene, linalool, flavonoids and phenolic compounds. In the formula, it supports a refreshed scalp feel, helps balance oil and contributes to a cleaner sensation.",
+    formula_rosemary_title: "Rosemary: revitalizing care",
+    formula_rosemary_desc: "Rosemary contributes essential oil components and antioxidants associated with scalp stimulation and a healthier-looking hair environment.",
+    formula_biotin_title: "Biotin: stronger-looking strands",
+    formula_biotin_desc: "Biotin is highlighted for its role in supporting the appearance of hair strength, elasticity, thickness and healthy growth conditions.",
+    formula_keratin_title: "Keratin: repair and smoothness",
+    formula_keratin_desc: "Keratin helps improve the look and feel of damaged strands by supporting smoothness, elasticity, moisture retention and resistance to breakage.",
+    formula_note_title: "Natural extract experience",
+    formula_note_desc: "Each wash is presented as a premium sensory routine designed to leave hair feeling revitalized, clean, manageable and full of life.",
+
+    results_title: "Formula Highlights",
+    results_subtitle: "A premium blend focused on natural extracts, scalp care and stronger-looking hair.",
+    before: "ROOTS",
+    after: "ENDS",
+    stat_1: "Premium ingredients: bergamot, rosemary, biotin and keratin.",
+    stat_2: "Key care goals: scalp balance, strength, elasticity, shine and manageability.",
+    stat_3: "Advanced botanical formula designed for a complete root-to-end routine.",
+
+    product_desc: "Discover a premium natural extract shampoo formulated with bergamot, rosemary, biotin and keratin. It helps maintain a clean, balanced scalp while supporting stronger-looking, softer and more manageable hair.",
+    feat_1: "Scalp Balance",
+    feat_2: "Keratin Care",
+    feat_3: "Natural Extracts",
+    feat_4: "Soft Shine",
     btn_add_cart: "Add to Cart",
     btn_buy_now: "Buy It Now",
     btn_contact_us: "Contact Us",
+
     faq_title: "Frequently Asked Questions",
-    faq_1_q: "Is it safe for color-treated hair?",
-    faq_1_a: "Yes, BERBIOKER is pH-balanced and sulfate-free, making it perfectly safe for color-treated and chemically-processed hair.",
-    faq_2_q: "How often should I use it?",
-    faq_2_a: "For best results, we recommend using it every other day or at least 3 times a week to maintain the botanical nutrient levels in your scalp.",
-    faq_3_q: "How long until I see results?",
-    faq_3_a: "Most users notice improved texture and shine after the first wash. Significant reduction in hair fall and visible thickness usually appears within 4-8 weeks of consistent use.",
-    cta_final_title: "Transform Your Hair Care Routine Today",
-    cta_final_subtitle: "Experience the synergy of botanical luxury and hair science.",
+    faq_1_q: "What makes BERBIOKER different?",
+    faq_1_a: "BERBIOKER combines four key ingredients—bergamot, rosemary, biotin and keratin—to support scalp freshness, stronger-looking strands, softness and manageability in one daily-care formula.",
+    faq_2_q: "What does each main ingredient do?",
+    faq_2_a: "Bergamot helps keep the scalp feeling fresh and balanced, rosemary supports a revitalized scalp feel, biotin helps the hair look stronger and thicker, and keratin improves softness, smoothness and resistance to breakage.",
+    faq_3_q: "How should I use it?",
+    faq_3_a: "Apply to wet hair, massage gently into the scalp, let the formula work for a moment and rinse thoroughly. Use consistently as part of your regular hair-care routine.",
+
+    cta_final_title: "Give Your Hair a Stronger, Healthier-Looking Routine",
+    cta_final_subtitle: "Experience the blend of botanical extracts and hair-care science in every wash.",
     footer_desc: "Botanical Opulence in Hair Science. Formulated for high-performance results without compromise.",
     footer_quick_links: "Quick Links",
     footer_contact: "Contact",
@@ -69,59 +93,83 @@ const translations = {
     nav_home: "Inicio",
     nav_benefits: "Beneficios",
     nav_ingredients: "Ingredientes",
-    nav_results: "Resultados",
+    nav_results: "Destacados",
     nav_faq: "Preguntas",
     btn_shop_now: "Comprar Ahora",
     btn_learn_more: "Saber Más",
-    hero_title: "Cuidado Capilar Avanzado para un Cabello más Fuerte y Sano",
-    hero_subtitle: "Potenciado con Bergamota, Romero, Biotina y Queratina para transformar tu cabello desde la raíz con potencia botánica.",
+
+    hero_title: "Cuidado Capilar Botánico Avanzado para un Cabello más Fuerte y Saludable",
+    hero_subtitle: "Shampoo premium de extractos naturales con bergamota, romero, biotina y queratina para apoyar el equilibrio del cuero cabelludo, la fuerza, la suavidad y el brillo desde la raíz hasta las puntas.",
+
     trust_strengthen: "Fortalece",
-    trust_nourish: "Nutre",
-    trust_protect: "Protege",
-    benefits_section_title: "Beneficios Sin Compromiso",
-    benefit_1_title: "Fortalece la Raíz",
-    benefit_1_desc: "Penetración profunda en el folículo para fortalecer el cabello desde su origen.",
-    benefit_2_title: "Reduce la Caída",
-    benefit_2_desc: "Formulado clínicamente para minimizar la pérdida y rotura del cabello.",
-    benefit_3_title: "Nutre el Cuero Cabelludo",
-    benefit_3_desc: "Mantiene un ambiente saludable para un crecimiento óptimo.",
-    benefit_4_title: "Brillo Natural",
-    benefit_4_desc: "Restaura el brillo y la sedosidad sin residuos químicos pesados.",
-    benefit_5_title: "Fórmula Diaria",
-    benefit_5_desc: "Lo suficientemente suave para el uso diario en todo tipo de cabello.",
-    benefit_6_title: "Uso Universal",
-    benefit_6_desc: "Efectivo para hombres y mujeres en todas las texturas de cabello.",
-    ingredients_title: "Potencia Botánica",
+    trust_nourish: "Equilibra",
+    trust_protect: "Revitaliza",
+
+    benefits_section_title: "Beneficios Botánicos para el Cuidado Capilar",
+    benefit_1_title: "Estimulación del Cuero Cabelludo",
+    benefit_1_desc: "La bergamota y el romero ayudan a refrescar el cuero cabelludo y a favorecer un ambiente más saludable para un cabello con apariencia más fuerte.",
+    benefit_2_title: "Apoyo Antioxidante",
+    benefit_2_desc: "Compuestos naturales como flavonoides y ácidos fenólicos ayudan a proteger el cabello y cuero cabelludo frente a la opacidad causada por factores diarios.",
+    benefit_3_title: "Equilibrio del Cuero Cabelludo",
+    benefit_3_desc: "La fórmula está diseñada para dejar el cuero cabelludo con sensación limpia, ligera y balanceada, ayudando a reducir la acumulación excesiva de grasa.",
+    benefit_4_title: "Fuerza y Elasticidad",
+    benefit_4_desc: "La biotina y la queratina ayudan a reforzar la apariencia de las fibras capilares, apoyando una mejor resistencia a la rotura y resequedad.",
+    benefit_5_title: "Suavidad y Manejabilidad",
+    benefit_5_desc: "La queratina ayuda a suavizar la superficie del cabello, dejando una sensación más sedosa, fácil de peinar y con aspecto saludable.",
+    benefit_6_title: "Cuidado de Raíz a Puntas",
+    benefit_6_desc: "Una mezcla completa para uso diario, creada para revitalizar, nutrir y proteger el cabello desde el cuero cabelludo hasta las puntas.",
+
+    ingredients_title: "Cuatro Ingredientes Clave",
     ing_bergamot: "Bergamota",
-    ing_bergamot_desc: "Refresca y estimula el cuero cabelludo, aportando antioxidantes esenciales.",
+    ing_bergamot_desc: "Conocida por su perfil cítrico fresco, la bergamota apoya el equilibrio del cuero cabelludo y ayuda a mantener una sensación limpia y ligera.",
     ing_rosemary: "Romero",
-    ing_rosemary_desc: "Promueve la circulación y el crecimiento natural mientras fortalece la fibra.",
-    ing_biotin: "Biotina y Queratina",
-    ing_biotin_desc: "Reconstruye las fibras capilares y mejora la textura para una apariencia más densa.",
-    results_title: "Transformaciones Visibles",
-    results_subtitle: "Resultados reales de nuestro ensayo clínico de 90 días.",
-    before: "ANTES",
-    after: "DESPUÉS",
-    stat_1: "Reportaron una reducción significativa de la caída tras 4 semanas.",
-    stat_2: "Notaron una textura más gruesa y abundante en 60 días.",
-    stat_3: "Coincidieron en que el cabello se siente más limpio sin irritación.",
-    product_desc: "Fórmula botánica de grado profesional diseñada para la recuperación avanzada. Combina lo mejor de la naturaleza y la ciencia.",
-    feat_1: "Hidratación Profunda",
-    feat_2: "pH Balanceado",
-    feat_3: "Sin Parabenos",
-    feat_4: "Libre de Crueldad",
+    ing_rosemary_desc: "Extracto botánico revitalizante, valorado por refrescar el cuero cabelludo y apoyar un cabello con apariencia más abundante.",
+    ing_biotin: "Biotina",
+    ing_biotin_desc: "También conocida como vitamina B7, ayuda a que el cabello luzca más fuerte, grueso y resistente.",
+    ing_keratin: "Queratina",
+    ing_keratin_desc: "Proteína estructural clave relacionada con la fuerza, suavidad, brillo y protección contra la resequedad del cabello.",
+
+    formula_eyebrow: "Ciencia de ingredientes",
+    formula_title: "Una fórmula pensada para equilibrio, fuerza y brillo",
+    formula_subtitle: "La nueva información destaca cómo cada ingrediente aporta a la experiencia BERBIOKER: cuero cabelludo limpio, fibras con apariencia más fuerte, mejor manejabilidad y acabado saludable.",
+    formula_bergamot_title: "Bergamota: frescura capilar",
+    formula_bergamot_desc: "La bergamota contiene compuestos como limoneno, linalool, flavonoides y compuestos fenólicos. En la fórmula, ayuda a refrescar el cuero cabelludo, equilibrar la grasa y aportar sensación de limpieza.",
+    formula_rosemary_title: "Romero: cuidado revitalizante",
+    formula_rosemary_desc: "El romero aporta componentes de aceites esenciales y antioxidantes asociados con la estimulación del cuero cabelludo y un ambiente capilar más saludable.",
+    formula_biotin_title: "Biotina: hebras más fuertes",
+    formula_biotin_desc: "La biotina se destaca por apoyar la apariencia de fuerza, elasticidad, grosor y condiciones saludables para el crecimiento del cabello.",
+    formula_keratin_title: "Queratina: reparación y suavidad",
+    formula_keratin_desc: "La queratina ayuda a mejorar la apariencia y sensación de hebras dañadas, aportando suavidad, elasticidad, retención de humedad y resistencia a la rotura.",
+    formula_note_title: "Experiencia de extractos naturales",
+    formula_note_desc: "Cada lavado se presenta como una rutina sensorial premium diseñada para dejar el cabello revitalizado, limpio, manejable y lleno de vida.",
+
+    results_title: "Destacados de la Fórmula",
+    results_subtitle: "Una mezcla premium enfocada en extractos naturales, cuidado del cuero cabelludo y cabello con apariencia más fuerte.",
+    before: "RAÍZ",
+    after: "PUNTAS",
+    stat_1: "Ingredientes premium: bergamota, romero, biotina y queratina.",
+    stat_2: "Objetivos clave: equilibrio del cuero cabelludo, fuerza, elasticidad, brillo y manejabilidad.",
+    stat_3: "Fórmula botánica avanzada diseñada para una rutina completa de raíz a puntas.",
+
+    product_desc: "Descubre un shampoo premium de extractos naturales formulado con bergamota, romero, biotina y queratina. Ayuda a mantener el cuero cabelludo limpio y balanceado mientras apoya un cabello con apariencia más fuerte, suave y manejable.",
+    feat_1: "Equilibrio Capilar",
+    feat_2: "Cuidado con Queratina",
+    feat_3: "Extractos Naturales",
+    feat_4: "Brillo Suave",
     btn_add_cart: "Agregar al Carrito",
     btn_buy_now: "Comprar Ya",
     btn_contact_us: "Contáctanos",
+
     faq_title: "Preguntas Frecuentes",
-    faq_1_q: "¿Es seguro para cabello teñido?",
-    faq_1_a: "Sí, BERBIOKER no tiene sulfatos, por lo que es perfectamente seguro para cabello teñido o procesado.",
-    faq_2_q: "¿Qué tan seguido debo usarlo?",
-    faq_2_a: "Para mejores resultados, recomendamos usarlo cada tercer día o al menos 3 veces por semana.",
-    faq_3_q: "¿Cuánto tardan los resultados?",
-    faq_3_a: "Notarás brillo desde el primer lavado. La reducción de caída suele verse entre las 4 y 8 semanas.",
-    cta_final_title: "Transforma tu Rutina Hoy Mismo",
-    cta_final_subtitle: "Experimenta la sinergia entre el lujo botánico y la ciencia capilar.",
+    faq_1_q: "¿Qué hace diferente a BERBIOKER?",
+    faq_1_a: "BERBIOKER combina cuatro ingredientes clave —bergamota, romero, biotina y queratina— para apoyar la frescura del cuero cabelludo, la apariencia de fuerza, la suavidad y la manejabilidad en una sola fórmula de cuidado diario.",
+    faq_2_q: "¿Qué aporta cada ingrediente principal?",
+    faq_2_a: "La bergamota ayuda a mantener sensación fresca y balanceada; el romero revitaliza el cuero cabelludo; la biotina ayuda a que el cabello luzca más fuerte y abundante; y la queratina mejora suavidad, textura y resistencia a la rotura.",
+    faq_3_q: "¿Cómo debo usarlo?",
+    faq_3_a: "Aplica sobre el cabello mojado, masajea suavemente el cuero cabelludo, deja actuar un momento y enjuaga bien. Úsalo de forma constante como parte de tu rutina de cuidado capilar.",
+
+    cta_final_title: "Dale a tu Cabello una Rutina más Fuerte y Saludable",
+    cta_final_subtitle: "Experimenta la combinación de extractos botánicos y ciencia capilar en cada lavado.",
     footer_desc: "Opulencia Botánica en Ciencia Capilar. Formulado para resultados de alto rendimiento.",
     footer_quick_links: "Enlaces Rápidos",
     footer_contact: "Contacto",
@@ -133,17 +181,32 @@ const translations = {
   }
 };
 let currentLang = 'en';
-function toggleLanguage() {
-  currentLang = currentLang === 'en' ? 'es' : 'en';
-  document.getElementById('lang-indicator').innerText = currentLang.toUpperCase();
+
+function applyTranslations(){
+  const indicator = document.getElementById('lang-indicator');
+  if(indicator){
+    indicator.innerText = currentLang.toUpperCase();
+  }
+
   document.querySelectorAll('[data-translate]').forEach(el => {
     const key = el.getAttribute('data-translate');
-    if (translations[currentLang][key]) {
+    if (translations[currentLang] && translations[currentLang][key]) {
       el.innerText = translations[currentLang][key];
     }
-  }
-  );
+  });
 }
+
+function toggleLanguage() {
+  currentLang = currentLang === 'en' ? 'es' : 'en';
+  applyTranslations();
+}
+
+if(document.readyState === 'loading'){
+  document.addEventListener('DOMContentLoaded', applyTranslations);
+} else {
+  applyTranslations();
+}
+
 function toggleMobileMenu() {
     const menu = document.getElementById('mobile-menu');
     const icon = document.getElementById('menu-icon');
@@ -413,6 +476,8 @@ window.updateQty = updateQty;
       ...document.querySelectorAll('#benefits .luxury-card'),
       ...document.querySelectorAll('#ingredients .group'),
       ...document.querySelectorAll('#ingredients .luxury-card'),
+      ...document.querySelectorAll('#formula .luxury-card'),
+      ...document.querySelectorAll('#formula .formula-card'),
       ...document.querySelectorAll('#results .relative.group'),
       ...document.querySelectorAll('#results .border-l-2'),
       ...document.querySelectorAll('#product .product-slider'),
@@ -460,7 +525,7 @@ window.updateQty = updateQty;
 
   function animateStats(){
     const statElements = [...document.querySelectorAll('#results .text-4xl, #results .text-5xl')]
-      .filter(el => /%/.test(el.textContent));
+      .filter(el => /\d/.test(el.textContent));
 
     if(prefersReducedMotion || !statElements.length) return;
 
@@ -472,6 +537,7 @@ window.updateQty = updateQty;
         if(el.dataset.animated === 'true') return;
         el.dataset.animated = 'true';
 
+        el.dataset.originalText = el.textContent;
         const target = parseInt(el.textContent.replace(/\D/g, ''), 10);
         const duration = 1400;
         const start = performance.now();
@@ -479,12 +545,13 @@ window.updateQty = updateQty;
         function tick(now){
           const progress = Math.min((now - start) / duration, 1);
           const eased = 1 - Math.pow(1 - progress, 3);
-          el.textContent = `${Math.round(target * eased)}%`;
+          const suffix = /%/.test(el.dataset.originalText || el.textContent) ? '%' : '';
+          el.textContent = `${Math.round(target * eased)}${suffix}`;
 
           if(progress < 1){
             requestAnimationFrame(tick);
           } else {
-            el.textContent = `${target}%`;
+            el.textContent = `${target}${suffix}`;
           }
         }
 
