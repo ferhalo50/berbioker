@@ -5,6 +5,7 @@ const translations = {
     nav_ingredients: "Ingredients",
     nav_results: "Highlights",
     nav_faq: "FAQ",
+    nav_contact: "Contact",
     btn_shop_now: "Shop Now",
     btn_learn_more: "Learn More",
 
@@ -95,6 +96,7 @@ const translations = {
     nav_ingredients: "Ingredientes",
     nav_results: "Destacados",
     nav_faq: "Preguntas",
+    nav_contact: "Contacto",
     btn_shop_now: "Comprar Ahora",
     btn_learn_more: "Saber Más",
 
@@ -243,30 +245,37 @@ function updateQty(val) {
 }
 
 function buyWhatsApp() {
+ const quantity = parseInt(document.getElementById("qty").value,10)||1;
+ const subject = currentLang==="es" ? "Cotización BERBIOKER" : "BERBIOKER Quote Request";
+ const body = currentLang==="es"
+ ? `Hola, me interesa cotizar ${quantity} shampoo(s) BERBIOKER.
 
-    const qtyInput = document.getElementById("qty");
-    const quantity = parseInt(qtyInput.value, 10) || 1;
+Nombre:
+Teléfono:
+Dirección de envío:
+Ciudad/Estado:
+Código Postal:
 
-    const phoneNumber = "526644160315";
+Método de pago preferido:
 
-    let message = "";
+Por favor indíquenme el proceso de compra, pago y envío.
 
-    if(currentLang === "es"){
+Gracias.`
+ : `Hello, I would like a quote for ${quantity} BERBIOKER shampoo(s).
 
-        message = `Hola, me interesa comprar ${quantity} ${quantity === 1 ? "shampoo BERBIOKER" : "shampoos BERBIOKER"}. ¿Podrían proporcionarme información sobre el proceso de compra y envío? Gracias.`;
+Name:
+Phone:
+Shipping Address:
+City/State:
+Postal Code:
 
-    } else {
+Preferred payment method:
 
-        message = `Hello, I am interested in purchasing ${quantity} ${quantity === 1 ? "BERBIOKER shampoo" : "BERBIOKER shampoos"}. Could you please provide information about the ordering and shipping process? Thank you.`;
+Please provide the purchase, payment and shipping process.
 
-    }
-
-    const whatsappUrl =
-        `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
-
-    window.open(whatsappUrl, "_blank");
+Thank you.`;
+ window.location.href=`mailto:berbioker@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
 }
-
 window.buyWhatsApp = buyWhatsApp;
 
 // Parallax Effect for Hero
@@ -597,3 +606,65 @@ window.updateQty = updateQty;
     initPremiumExperience();
   }
 })();
+
+
+function buyProductEmail() {
+ const quantity = parseInt(document.getElementById('qty')?.value || '1',10);
+ let subject='', body='';
+ if(currentLang==='es'){
+   subject='Cotización BERBIOKER';
+   body=`Hola, me interesa cotizar ${quantity} shampoo(s) BERBIOKER.
+
+Nombre:
+Teléfono:
+Dirección de envío:
+Ciudad/Estado:
+Código Postal:
+
+Método de pago preferido:
+
+Me gustaría recibir información sobre el proceso de compra y envío.
+
+Gracias.`;
+ } else {
+   subject='BERBIOKER Quote Request';
+   body=`Hello, I would like a quote for ${quantity} BERBIOKER shampoo(s).
+
+Name:
+Phone:
+Shipping Address:
+City/State:
+Postal Code:
+
+Preferred payment method:
+
+I would like information about the ordering and shipping process.
+
+Thank you.`;
+ }
+ window.location.href=`mailto:berbioker@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+}
+
+function openContactEmail(){
+ let subject='', body='';
+ if(currentLang==='es'){
+  subject='Información BERBIOKER';
+  body=`Hola, me gustaría recibir más información acerca de BERBIOKER.
+
+Nombre:
+Teléfono:
+Ciudad/Estado:
+Consulta:`;
+ } else {
+  subject='BERBIOKER Information';
+  body=`Hello, I would like to receive more information about BERBIOKER.
+
+Name:
+Phone Number:
+City/State:
+Inquiry:`;
+ }
+ window.location.href=`mailto:berbioker@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+}
+window.buyProductEmail=buyProductEmail;
+window.openContactEmail=openContactEmail;

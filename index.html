@@ -130,6 +130,7 @@
         <a class="font-label-caps text-label-caps text-on-surface/70 hover:text-primary transition-colors" data-translate="nav_ingredients" href="#ingredients">Ingredients</a>
         <a class="font-label-caps text-label-caps text-on-surface/70 hover:text-primary transition-colors" data-translate="nav_results" href="#results">Results</a>
         <a class="font-label-caps text-label-caps text-on-surface/70 hover:text-primary transition-colors" data-translate="nav_faq" href="#faq">FAQ</a>
+        <a class="font-label-caps text-label-caps text-on-surface/70 hover:text-primary transition-colors" data-translate="nav_contact" href="#contact">Contact</a>
       </div>
       <div class="flex items-center gap-4 md:gap-6">
         <button class="font-label-caps text-label-caps text-primary hover:text-primary-fixed transition-colors flex items-center gap-1 group" onclick="toggleLanguage()">
@@ -152,6 +153,7 @@
         <a class="font-headline-md text-xl text-on-surface hover:text-primary transition-colors" data-translate="nav_ingredients" href="#ingredients" onclick="toggleMobileMenu()">Ingredients</a>
         <a class="font-headline-md text-xl text-on-surface hover:text-primary transition-colors" data-translate="nav_results" href="#results" onclick="toggleMobileMenu()">Results</a>
         <a class="font-headline-md text-xl text-on-surface hover:text-primary transition-colors" data-translate="nav_faq" href="#faq" onclick="toggleMobileMenu()">FAQ</a>
+        <a class="font-headline-md text-xl text-on-surface hover:text-primary transition-colors" data-translate="nav_contact" href="#contact" onclick="toggleMobileMenu()">Contact</a>
         <a class="btn-luxury px-10 py-4 mt-4 font-label-caps text-label-caps uppercase text-primary" data-translate="btn_shop_now" href="#product" onclick="toggleMobileMenu()">Shop Now</a>
       </div>
     
@@ -417,10 +419,10 @@
           </div>
           <div class="py-6 md:py-8 border-y border-white/10">
             <div class="flex items-end gap-3 md:gap-4 mb-6">
-              <span class="text-3xl md:text-4xl font-display-lg text-primary">$49.00</span>
-              <span class="text-lg md:text-xl text-on-surface/40 line-through mb-1">$65.00</span>
-              <span class="bg-primary/20 text-primary px-2 py-1 text-[10px] md:text-xs font-bold mb-2">SAVE 25%</span>
-            </div>
+              <span class="text-3xl md:text-4xl font-display-lg text-primary">$20.00</span>
+              <span class="text-lg md:text-xl text-on-surface/40 line-through mb-1">$24.00</span>
+              <span class="bg-primary/20 text-primary px-2 py-1 text-[10px] md:text-xs font-bold mb-2">SPECIAL PRICE</span>
+            </div><p class="text-xs text-on-surface/60 mt-2">* Precio de referencia: USD $20.00. Para pagos en México se considera un tipo de cambio de $17 MXN por USD, sujeto a cambios sin previo aviso.</p>
             <div class="flex flex-col sm:flex-row gap-4 items-center">
               <div class="flex border border-white/20 w-full sm:w-auto justify-between">
                 <button class="p-4 hover:bg-white/5 transition-colors text-primary flex-1 sm:flex-none" onclick="updateQty(-1)">-</button>
@@ -430,7 +432,7 @@
             </div>
             <button
               class="w-full mt-4 bg-primary text-black py-4 font-label-caps text-label-caps font-bold hover:bg-primary-fixed hover:shadow-[0_0_20px_rgba(242,202,80,0.5)] transition-all"
-              onclick="buyWhatsApp()"
+              onclick="buyProductEmail()"
               data-translate="btn_buy_now">
               Buy It Now
             </button>
@@ -546,7 +548,7 @@
           <ul class="space-y-4">
             <li class="flex items-center gap-2 text-sm text-on-surface/50">
               <span class="material-symbols-outlined text-sm">mail</span>
-              berbioker@gmail.com
+              <a href="#" onclick="openContactEmail(); return false;" class="hover:text-primary">berbioker@gmail.com</a>
             </li>
             <li class="flex items-center gap-2 text-sm text-on-surface/50">
               <span class="material-symbols-outlined text-sm">phone</span>
@@ -568,8 +570,9 @@
        href="https://www.instagram.com/berbioker?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
        target="_blank"
        rel="noopener noreferrer">
-       IG
+       <img src="img/instagram-icon.png" alt="Instagram" style="width:24px;height:24px;">
     </a>
+<a class="w-10 h-10 rounded-full border border-white/10 flex items-center justify-center" href="#" onclick="openContactEmail(); return false;"><img src="img/email-icon.png" alt="Email" style="width:24px;height:24px;"></a>
 <!-- 
     <!- Facebook --
     <a
@@ -588,7 +591,7 @@
       rel="noopener noreferrer">
       WA
     </a>
--->
+
     
     <a
       class="w-10 h-10 rounded-full border border-white/10 flex items-center justify-center text-xs text-on-surface/50 hover:text-primary hover:border-primary transition-all"
@@ -597,7 +600,7 @@
       rel="noopener noreferrer">
       EM
     </a>
-
+-->
 </div>
         </div>
       </div>
